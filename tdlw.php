@@ -14,7 +14,7 @@
 		require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 	}
 
-	// Get version
+	
 	if ( !function_exists( 'ardtdw_version' ) ) {
 		function ardtdw_version() {
 			$plugin_dades = get_plugin_data( __FILE__ );
